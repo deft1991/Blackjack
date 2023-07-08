@@ -11,4 +11,11 @@ The computer is the dealer, and there can be from 1 to N players.
    - stand -> go to the next player 
 4. After game will be finished, type "again" or "exit":
    - again -> restart game
-   - exit  -> exit from the app 
+   - exit  -> exit from the app
+
+**Future Improvements**
+1. I can easily add multithreading
+2. Add Spring Boot
+3. Add CI/CD to AWS EC2
+4. Add REST or gRPC API for browser/mobile-app
+5. Check cheaters
