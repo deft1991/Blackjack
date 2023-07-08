@@ -19,6 +19,9 @@ public class BasicHand<T extends BasicCard> {
         return score;
     }
 
+    /**
+     * todo check availability
+     */
     public void addCard(T card) {
         cards.add(card);
     }
