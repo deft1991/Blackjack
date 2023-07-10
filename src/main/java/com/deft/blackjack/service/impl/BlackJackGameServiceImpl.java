@@ -111,6 +111,14 @@ public class BlackJackGameServiceImpl implements BlackJackGameService {
         return true;
     }
 
+    /**
+     * TODO
+     * Add interface ResultValidator
+     * with method isValid and print
+     *
+     * create list from { DealerWinValidator, BlackJackValidator, ect..}
+     * iterate over list and print instead of if/else
+     */
     @Override
     public void printResults() {
         BlackJackHand dealerHand = hands[dealerIdx];
